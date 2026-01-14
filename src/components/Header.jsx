@@ -27,15 +27,9 @@ const Header = () => {
         <header>
             <div className="profile-page sidebar-collapse">
                 <nav
-                    className={`navbar navbar-expand-lg fixed-top navbar-transparent bg-primary ${!isTransparent ? 'navbar-transparent-remove' : ''}`}
+                    className={`navbar navbar-expand-lg fixed-top bg-primary ${isTransparent ? 'navbar-transparent' : 'navbar-scrolled'}`}
                     color-on-scroll="400"
-                    style={!isTransparent ? { backgroundColor: '#378C3F' } : {}} // Match primary color or remove transparency class
                 >
-                    {/* Note: The original CSS .navbar-transparent removal logic might need manual style override or just class removal if CSS supports it. 
-            In main.css, removing navbar-transparent should apply the bg-primary or default style.
-            However, bootstrap 'bg-primary' might be overridden by navbar-transparent. 
-            Let's rely on class removal first. 
-        */}
                     <div className="container">
                         <div className="navbar-translate">
                             <a className="navbar-brand" href="#" rel="tooltip">Philip's CV</a>
