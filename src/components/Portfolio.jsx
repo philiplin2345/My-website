@@ -78,7 +78,7 @@ const Portfolio = () => {
                                     <div className="cc-porfolio-image img-raised">
                                         <a href="#event-photos">
                                             <figure className="cc-effect">
-                                                <img src="https://drive.google.com/uc?export=view&id=1QmGI-6p217QTzcqzIvG7XF908UndUIKJ"
+                                                <img src="/images/portfolio/solana1.jpg"
                                                     alt="Image" />
                                                 <figcaption>
                                                     <div className="h4">Solana 3.0 Hackathon</div>
@@ -90,7 +90,7 @@ const Portfolio = () => {
                                     <div className="cc-porfolio-image img-raised">
                                         <a href="#event-photos">
                                             <figure className="cc-effect">
-                                                <img src="https://drive.google.com/uc?export=view&id=1mWCoYVBpqDz4-GTVU_adDr30duKkaVx7"
+                                                <img src="/images/portfolio/solana2.jpg"
                                                     alt="Image" />
                                                 <figcaption>
                                                     <div className="h4">Solana 3.0 Hackathon</div>
@@ -104,7 +104,7 @@ const Portfolio = () => {
                                     <div className="cc-porfolio-image img-raised">
                                         <a href="#event-photos">
                                             <figure className="cc-effect">
-                                                <img src="https://drive.google.com/uc?export=view&id=13bb1hcVOuNELTHjHwQiWzXjvboIPWcOk"
+                                                <img src="/images/portfolio/solana3.jpg"
                                                     alt="Image" />
                                                 <figcaption>
                                                     <div className="h4">Solana 3.0 Hackathon</div>
@@ -116,7 +116,7 @@ const Portfolio = () => {
                                     <div className="cc-porfolio-image img-raised">
                                         <a href="#event-photos">
                                             <figure className="cc-effect">
-                                                <img src="https://drive.google.com/uc?export=view&id=1ww2-8HXKYy5Usvvch8Lt5QBZJHxKKS5C"
+                                                <img src="/images/portfolio/solana4.jpg"
                                                     alt="Image" />
                                                 <figcaption>
                                                     <div className="h4">Solana 3.0 Hackathon</div>
