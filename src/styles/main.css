@@ -5399,7 +5399,11 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header:before {
-  background-color: rgba(0, 0, 0, 0.2);
+  /* Combine green gradient with dark overlay */
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6)),
+    rgba(0, 0, 0, 0.5);
+  background-blend-mode: normal;
+  z-index: 1;
 }
 
 .page-header[filter-color="orange"] {
@@ -7379,7 +7383,7 @@ Created using IcoMoon - icomoon.io
 
 /* Body */
 /* Profile Page Background Style */
-/* Removed gradient to show banner image */
+/* Removed gradient from here - it's now on :before pseudo-element */
 
 .page-header .btn {
   width: 140px;
