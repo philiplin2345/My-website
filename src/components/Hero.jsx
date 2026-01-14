@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <div className="profile-page">
             <div className="wrapper">
-                <div className="page-header page-header-small" filter-color="green">
+                <div className="page-header page-header-small">
                     <div
                         className="page-header-image"
                         data-parallax="true"
