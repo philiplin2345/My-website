@@ -8,13 +8,13 @@ const Hero = () => {
                     <div
                         className="page-header-image"
                         data-parallax="true"
-                        style={{ backgroundImage: "url('/images/cc-bg-1.jpg')" }}
+                        style={{ backgroundImage: `url('${import.meta.env.BASE_URL}images/cc-bg-1.jpg')` }}
                     >
                     </div>
                     <div className="container">
                         <div className="content-center">
                             <div className="cc-profile-image">
-                                <a href="#"><img src="/images/20221020z.jpg" alt="Image" /></a>
+                                <a href="#"><img src={`${import.meta.env.BASE_URL}images/20221020z.jpg`} alt="Image" /></a>
                             </div>
                             <div className="h2 title">Philip Lin</div>
                             <p className="category text-white">
